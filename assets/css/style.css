@@ -1,0 +1,397 @@
+html, body {
+    font-family: 'Poppins', sans-serif;
+
+}
+
+html, body {
+    overflow-x: hidden;
+}
+
+/* BANNER */
+
+#area-banner {
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("/assets/images/banner.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 80px 0;
+}
+
+@media (max-width: 992px) {
+    #area-banner {
+        width: 100%;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("/assets/images/banner.jpg");
+    }
+}
+
+#area-banner img {
+    width: 100px;
+    margin-top: 20px;
+}
+
+
+#area-banner div.conteudo {
+    margin-top: 150px;
+}
+
+#area-banner div.conteudo h1 {
+    color: #0F62FE;
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+#area-banner div.conteudo h1 span {
+    font-weight: 300;
+}
+
+#area-banner div.conteudo h1 span.bl {
+    color: #000;
+}
+
+#area-banner div.conteudo h2 {
+    font-size: 2.4rem;
+    font-weight: 300;
+}
+
+#area-banner span.seta {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background-image: url("/assets/images/seta.png");
+    background-position: center;
+    background-size: cover;
+    margin-left: 5px;
+    transform: scaleX(-1) scaleY(-1);
+}
+
+@media(max-width: 768px) {
+
+    #area-banner {
+        width: 100%;
+        background-image: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)), url("/assets/images/banner.jpg");
+    }
+}
+
+#area-banner div.conteudo div.textos {
+    margin-top: 30px;
+}
+
+
+#area-banner div.conteudo div.textos p.destaque {
+    color: #007bff;
+    font-size: 2.3rem;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+#area-banner div.conteudo div.textos p {
+    font-size: 1.6rem;
+    font-weight: 300;
+    margin-bottom: 0;
+}
+
+
+
+/* CONTADOR */
+
+#area-contador {
+    background-color: #007bff;
+    color: #fff;
+    padding: 40px 0px;
+}
+
+
+/* #area-contador div.row{
+    padding: 0px 20px;
+} */
+
+@media(max-width: 992px) {
+    #area-contador {
+        text-align: center;
+    }
+
+    #area-contador h2 {
+        margin-bottom: 20px;
+    }
+}
+
+#area-contador h2 {
+    font-weight: 100;
+    font-size: 2.5rem;
+}
+
+#area-contador div.card-contador {
+    display: flex;
+}
+
+#area-contador div.card-contador div {
+    width: 200px;
+    text-align: center;
+}
+
+#area-contador div.card-contador div h3 {
+    font-size: 4rem;
+}
+
+@media(max-width: 576px) {
+
+    #area-contador h2 {
+        margin-bottom: 20px;
+        font-size: 1.8rem;
+    }
+
+    #area-contador div.card-contador div h3 {
+        font-size: 3rem;
+    }
+}
+
+#area-contador div.card-contador div h5 {
+    font-size: 2rem;
+    font-weight: 300;
+}
+
+#area-contador #seta {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background-image: url("/assets/images/seta-branca.png");
+    background-position: center;
+    background-size: cover;
+    margin-left: 5px;
+    transform: scaleX(-1) scaleY(-1);
+}
+
+
+/* AGENDA E FORMULÁRIO */
+#agenda-form {
+    padding: 60px 0;
+    padding-bottom: 0;
+}
+#inscricao-agenda{
+    padding: 20px;
+}
+@media (max-width: 768px) {
+    #inscricao-agenda{
+        padding: 0px 20px;
+    }
+    
+}
+.enter {
+
+
+    color: #fff;
+}
+
+#area-agenda-inputs {
+    padding: 40px 0;
+}
+
+@media(max-width: 576px) {
+    #area-agenda-inputs {
+        padding: 0px 0;
+    }
+}
+
+#agenda-form div.texto-inicio p {
+    font-size: 1.2rem;
+    font-weight: 300 !important;
+}
+
+#agenda-form div.texto-inicio strong {
+    font-weight: 600;
+}
+
+#area-card-agenda {
+    background-color: #007bff;
+    padding: 40px;
+    color: #fff;
+}
+
+#area-card-agenda h2 {
+    font-weight: 300;
+}
+
+#area-card-agenda h4 {
+    margin-top: 20px;
+}
+
+#area-card-agenda p {
+    font-weight: 300;
+    font-size: 1.2rem;
+    margin-bottom: 0;
+}
+
+#area-card-agenda span.opcao {
+    margin-left: 30px;
+    margin-bottom: 20px;
+    display: block;
+}
+
+@media (max-width: 768px) {
+    #area-card-agenda {
+        padding: 40px 20px;
+    }
+    
+}
+#formulario-inscricao .form-row h2 {
+    color: #007bff;
+    font-weight: 300;
+    margin: 30px 0;
+
+}
+
+#formulario-inscricao .form-row .form-control {
+    border-radius: 0;
+}
+
+#formulario-inscricao .form-row input.form-control {
+    padding: 30px 20px;
+}
+
+/* PRIVACIDADE */
+
+#area-privacidade {
+    background-color: #F5F5F5;
+    padding: 60px 0;
+}
+#area-privacidade div.row{
+    padding: 0 20px;
+}
+
+#area-privacidade h2 {
+    font-weight: 300;
+    color: #007bff;
+    font-size: 1.3rem;
+    margin-bottom: 20px;
+}
+
+#area-privacidade h4 {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+}
+
+#area-privacidade label {
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+
+#area-privacidade small {
+    display: block;
+    margin-bottom: 20px;
+}
+
+#area-privacidade small strong {
+    font-weight: 600;
+}
+
+#area-privacidade .btn {
+    border-radius: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.3rem;
+    font-weight: 300;
+}
+
+#area-privacidade .btn span.enviar {
+    display: block;
+    width: 60px;
+    height: 60px;
+    background-image: url("/assets/images/icon1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#area-privacidade div.contato h5 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+#area-privacidade div.contato i {
+    margin-right: 10px;
+    font-size: 1.5rem;
+}
+
+#area-privacidade div.contato p {
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+
+@media (max-width: 768px) {
+    #area-privacidade {
+        padding: 40px 20px;
+    }
+}
+
+/* RODAPÈ */
+
+footer {
+    background-color: #F5F5F5;
+}
+
+
+footer div.patrocinio {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding: 40px;
+}
+
+footer div.patrocinio p {
+    margin: 0;
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+
+footer div.patrocinio img {
+    width: 100px;
+    margin-left: 20px;
+}
+
+footer div.conteudo p {
+    font-weight: 300;
+    padding: 30px;
+    text-align: justify;
+}
+
+
+#area-contato-form h5 {
+    color: #007bff;
+    font-weight: 300;
+    font-size: 2rem;
+}
+
+#area-contato-form p {
+    font-size: 1.4rem;
+
+}
+
+#area-contato-form i {
+    font-size: 1.5rem;
+    margin-right: 10px;
+}
+
+#area-contato-form span {
+    font-weight: 600;
+}
+
+@media (max-width: 768px) {
+    footer{
+        padding: 40px 20px;
+    }
+}
+
+@media (max-width: 576px) {
+    #area-contato-form p {
+        font-size: .8rem;
+    }
+
+    footer div.conteudo a {
+        font-size: .8rem;
+    }
+}
+
+#form-senha input::placeholder{
+    color: #844fc1 !important;
+}

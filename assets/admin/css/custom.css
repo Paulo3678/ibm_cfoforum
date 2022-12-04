@@ -1,0 +1,191 @@
+#body-form-login {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #EEEEEE;
+}
+
+
+#area-form-login form {
+    padding: 20px;
+    width: 500px;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 5px;
+}
+
+.hidden {
+    display: none !important;
+}
+
+
+#area-form-login form img {
+    width: 200px;
+    margin-bottom: 20px;
+}
+
+.form-observador button {
+    border: none;
+    outline: none;
+    color: #fff;
+    background-color: #844fc1;
+    font-weight: bold;
+    height: 45px;
+    width: 80px;
+    margin: 0;
+    margin-left: 5px;
+}
+
+
+.form-observador {
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.form-observador input {
+    width: 600px;
+    margin: 0;
+}
+
+.form-observador div.form-group {
+    display: flex;
+    align-items: center;
+}
+
+
+
+
+
+
+.form-revogar-confirmacao button {
+    border: none;
+    outline: none;
+    color: #fff;
+    background-color: #844fc1;
+    font-weight: bold;
+    height: 45px;
+    width: 80px;
+    margin: 0;
+    margin-left: 5px;
+}
+
+
+.form-revogar-confirmacao {
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.form-revogar-confirmacao input {
+    width: 600px;
+    margin: 0;
+}
+
+.form-revogar-confirmacao div.form-group {
+    display: flex;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+.botao-atualizar-observacao {
+    font-weight: bold;
+    color: #844fc1;
+    transition: all .4s;
+}
+
+.botao-atualizar-observacao:hover {
+    color: #2a0158;
+}
+
+.botao-adicionar-observacao{
+    font-weight: bold;
+    color: #7FBCD2;
+    transition: all .4s;
+}
+
+.botao-adicionar-observacao:hover{
+    color: #277BC0;
+}
+
+
+.botao-revogar-confirmacao{
+    font-weight: bold;
+    color: #3120E0;
+    transition: all .4s;
+}
+.botao-revogar-confirmacao:hover{
+    color: rgb(69, 169, 245);
+}
+
+
+
+.botao-aprovar-inscricao {
+    font-weight: bold;
+    color: #7FB77E;
+    display: block;
+    margin-bottom: 15px;
+    text-align: left;
+    transition: all .4s;
+    background-color: transparent;
+    border: none;
+    padding: 0 !important;
+}
+
+.botao-aprovar-inscricao:hover {
+    color: #42855B;
+}
+
+
+.botao-reprovar-inscricao {
+    font-weight: bold;
+    color: #EC7272;
+    display: block;
+    margin-bottom: 15px;
+    text-align: left;
+    transition: all .4s;
+    background-color: transparent;
+    border: none;
+    padding: 0 !important;
+}
+
+.botao-reprovar-inscricao:hover {
+    color: #EB1D36;
+}
+
+
+.botao-revogar-inscricao{
+    font-weight: bold;
+    color: #FEC260;
+    display: block;
+    margin-bottom: 0;
+    text-align: left;
+    transition: all .4s;
+    background-color: transparent;
+    border: none;
+    padding: 0 !important; 
+}
+
+.btn-logout{
+    background-color: #E94560;
+    color: #fff;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 1rem;
+    border-radius: 5px;
+    transition: all .4s;
+    text-decoration: none !important;
+}
+
+.btn-logout:hover{
+    background-color: #A62349;
+    color: #fff;
+}
